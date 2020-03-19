@@ -11,6 +11,9 @@
         <com.google.android.material.tabs.TabLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:tabIndicatorColor="#000000"
+            app:tabIndicatorHeight="5dp"
+            app:tabMode="scrollable"
             android:id="@+id/mainTabLayout" />
 
 
