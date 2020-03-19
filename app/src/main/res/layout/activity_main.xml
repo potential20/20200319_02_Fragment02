@@ -14,6 +14,7 @@
             android:layout_height="match_parent"
             class="kr.co.tjoeun.a20200319_02_fragment02.fragment.ChickenStoreFragment"/>
 
+
         <fragment
             android:id="@+id/roomListFrag"
             android:layout_width="match_parent"
