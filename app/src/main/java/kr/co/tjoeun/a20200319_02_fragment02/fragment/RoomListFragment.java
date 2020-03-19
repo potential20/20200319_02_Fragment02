@@ -59,6 +59,9 @@ public class RoomListFragment extends Fragment {
 //        목록에 방을 여러개 추가하고, 어댑터 새로고침.
 
         roomList.add(new Room(5000,"서울시 은평구"));
+        roomList.add(new Room(8000,"서울시 서대문구"));
+        roomList.add(new Room(12000,"서울시 종로구"));
+
 
 //         어댑터에게 내용 변경이 있었다고 공지 => 새로고침.
         adapter.notifyDataSetChanged();

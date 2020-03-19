@@ -6,11 +6,13 @@
     android:padding="10dp">
 
     <TextView
+        android:id="@+id/priceTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:text="가격 표시 자리"/>
     <TextView
+        android:id="@+id/addressTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
